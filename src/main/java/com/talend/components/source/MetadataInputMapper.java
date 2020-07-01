@@ -24,7 +24,7 @@ import com.talend.components.service.MetadataService;
 // this class role is to enable the work to be distributed in environments supporting it.
 //
 @Version(1) // default version is 1, if some configuration changes happen between 2 versions you can add a migrationHandler
-@Icon(value = CUSTOM, custom = "MetadataInput") // icon is located at src/main/resources/icons/MetadataInput.svg
+@Icon(value = CUSTOM, custom = "shield-full") // icon is located at src/main/resources/icons/MetadataInput.svg
 @PartitionMapper(name = "MetadataInput")
 @Documentation("TODO fill the documentation for this mapper")
 public class MetadataInputMapper implements Serializable {
